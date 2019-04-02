@@ -12,7 +12,7 @@ config :vocial,
 
 # Configures the endpoint
 config :vocial, VocialWeb.Endpoint,
-  url: [host: "localhost"],
+  url: [host: "192.0.0.139"],
   secret_key_base: "H2AJ77l+hZ6d9fju5PX5fEvziwe8JATTMAzGNMcPKCYEYPWGTV2fi1JWFO06JjcJ",
   render_errors: [view: VocialWeb.ErrorView, accepts: ~w(html json)],
   pubsub: [name: Vocial.PubSub, adapter: Phoenix.PubSub.PG2]
